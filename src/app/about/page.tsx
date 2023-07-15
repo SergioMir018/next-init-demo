@@ -8,10 +8,13 @@ export const metadata: Metadata = {
 
 export default function Home() {
     return (
-        <main className="text-5xl flex items-center justify-center h-screen">
+        <main className="text-5xl flex flex-col items-center justify-center h-screen">
             <h3 className="">
                 Ir a <Link className="text-blue-500" href="/">Home</Link>
             </h3>
+            <small
+                className="mt-4"
+            >This is the about page</small>
         </main>
     )
 }
