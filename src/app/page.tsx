@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="text-black text-5xl flex flex-col items-center justify-center h-screen">
       <h3>
-        Ir a{' '}<Link className="text-blue-500" href="/about">About</Link>
+        Ir a{' '}
       </h3>
       <small
         className="mt-4"
